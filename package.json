@@ -1,0 +1,34 @@
+{
+  "name": "node-starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node lib",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d lib"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/plugin-proposal-pipeline-operator": "^7.5.0",
+    "@babel/polyfill": "^7.6.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.6.0",
+    "@babel/core": "^7.6.0",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/plugin-proposal-nullish-coalescing-operator": "^7.4.4",
+    "@babel/plugin-proposal-optional-chaining": "^7.6.0",
+    "@babel/preset-env": "^7.6.0",
+    "@types/core-js": "^2.5.2",
+    "@types/eslint-plugin-prettier": "^2.2.0",
+    "babel-eslint": "^10.0.3",
+    "core-js": "^3.2.1",
+    "eslint": "^6.4.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-prettier": "^3.1.1"
+  }
+}
